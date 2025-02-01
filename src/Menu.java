@@ -53,6 +53,7 @@ public class Menu {
                     biblioteca.pesquisarLivrosDeAutores(autor, livros);
                     break;
                 case 8:
+                    System.out.println("\nSistema Finalizado!");
                     sair = true;
                     break;
             }
